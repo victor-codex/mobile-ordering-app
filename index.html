@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smythe&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Jimmy's Dinner</h1>
+        <p>the best buger and pizza in town</p>
+      </div>
+    </header>
+    <!-- first product -->
+    <div class="container" id="products">
+      <!-- second product -->
+
+      <!-- third product -->
+    </div>
+
+    <!-- cart  -->
+
+    <div class="container hidden" id="cart-hidden">
+      <h3 class="cart-name">Your order</h3>
+      <div class="cart-details underline" id="carts">
+        <!-- carts html -->
+      </div>
+      <!-- total price -->
+      <div class="cart-price">
+        <h3 class="product-name">Total price</h3>
+        <span class="product-price" id="product-price"></span>
+      </div>
+      <button id="complete-btn" class="btn btn-primary">Complete order</button>`
+    </div>
+
+    <div id="box" class="hidden"></div>
+
+    <!-- modal -->
+    <div class="modal container" id="modal">
+      <p class="modal-name">Enter card details</p>
+      <form id="card-form" action="">
+        <input type="name" name="name" placeholder="Enter your name" required />
+        <input
+          type="name"
+          name="cardNumber"
+          placeholder="Enter card number"
+          required
+        />
+        <input type="name" name="cardCvv" placeholder="Enter cvv" required />
+        <button class="submit-btn btn-primary" type="submit">pay</button>
+      </form>
+    </div>
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

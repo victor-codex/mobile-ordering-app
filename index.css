@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-family: "Smythe", cursive;
+  background-color: #f5f5f5;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  width: 50px;
+}
+
+/* typography */
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+header > .container > p {
+  font-size: 1.4rem;
+}
+
+.product-name,
+.cart-name {
+  font-size: 1.75rem;
+}
+
+.cart-name {
+  text-align: center;
+}
+
+.product-price {
+  font-size: 1.5rem;
+}
+
+/* icons */
+
+i {
+  font-size: 2em;
+  cursor: pointer;
+}
+i:hover {
+  color: #16db99;
+}
+
+.fa-solid {
+  color: #999;
+}
+
+/* layout */
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url(images/ferks-guare-KEZdWfYD-ow-unsplash\ 1.png);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  padding: 2em 0;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.underline {
+  border-bottom: 1px #d2d2d2 solid;
+}
+
+.emoji-img {
+  font-size: 5rem;
+}
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2em auto;
+}
+
+.product-content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.cart,
+.cart-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.6em auto;
+}
+
+.cart-price {
+  padding-bottom: 1em;
+}
+
+.cart-name {
+  margin-top: 0.825em;
+  margin-bottom: 0.825em;
+}
+
+.cart-details {
+  padding-bottom: 1em;
+}
+
+.cart-details.underline {
+  border-bottom: 2px #393333 solid;
+}
+
+.remove {
+  cursor: pointer;
+}
+
+.remove:hover,
+.remove:focus {
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  width: 100%;
+  margin-bottom: 2em;
+  padding: 1em;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+  border: none;
+}
+
+.btn-primary {
+  background-color: #16db99;
+  color: #fff;
+}
+
+/* modal */
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  height: 542px;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0px 0px 6px 2px #666;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.modal-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 2em 0;
+}
+
+/* form */
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+input {
+  padding: 1.3em 0px 1.3em 2em;
+  margin-bottom: 2em;
+  border: 1px solid #757575;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  width: 100%;
+  margin-top: 1em;
+  padding: 1.3em;
+  cursor: pointer;
+  font-weight: 700;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+  border: none;
+}
+
+.msg-box {
+  text-align: center;
+  background-color: #ecfdf5;
+  color: #065f46;
+  border-radius: 3px;
+  padding: 2em 0;
+  margin: 3em auto;
+}
+
+.msg {
+  font-size: 2rem;
+}
+
+/* @media (min-width: 800px) {
+  .container {
+    width: 800px;
+  }
+} */
